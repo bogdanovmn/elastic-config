@@ -11,9 +11,10 @@
     <packaging>jar</packaging>
 
     <scm>
-        <connection>scm:git:https://github.com/bogdanovmn/elastic-config.git</connection>
-        <developerConnection>scm:git:https://github.com/bogdanovmn/elastic-config.git</developerConnection>
+        <connection>scm:git:git@github.com:bogdanovmn/elastic-config.git</connection>
+        <developerConnection>scm:git:git@github.com:bogdanovmn/elastic-config.git</developerConnection>
         <url>https://github.com/bogdanovmn/elastic-config/</url>
+        <tag>HEAD</tag>
     </scm>
 
     <parent>
@@ -21,7 +22,7 @@
         <artifactId>oss-parent</artifactId>
         <version>9</version>
     </parent>
-    
+
     <properties>
         <encoding>UTF-8</encoding>
         <java.version>1.7</java.version>
