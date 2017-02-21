@@ -11,8 +11,8 @@
     <packaging>jar</packaging>
 
     <scm>
-        <connection>scm:git:git@github.com:bogdanovmn/elastic-config.git</connection>
-        <developerConnection>scm:git:git@github.com:bogdanovmn/elastic-config.git</developerConnection>
+        <connection>scm:git:https:/github.com/bogdanovmn/elastic-config.git</connection>
+        <developerConnection>scm:git:https://github.com/bogdanovmn/elastic-config.git</developerConnection>
         <url>https://github.com/bogdanovmn/elastic-config/</url>
         <tag>HEAD</tag>
     </scm>
