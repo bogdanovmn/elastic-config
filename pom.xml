@@ -8,7 +8,16 @@
     <version>1.3-SNAPSHOT</version>
 
     <name>Elastic config</name>
+    <url>https://github.com/bogdanovmn/elastic-config/</url>
     <packaging>jar</packaging>
+
+    <developers>
+        <developer>
+            <id>owner</id>
+            <name>Mikhail N Bogdanov</name>
+            <email>bogdanovmn@gmail.com</email>
+        </developer>
+    </developers>
 
     <scm>
         <connection>scm:git:https:/github.com/bogdanovmn/elastic-config.git</connection>
