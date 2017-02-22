@@ -21,17 +21,17 @@ public class ElasticConfig {
         this.secretConfigOptionName = secretConfigOptionName;
     }
 
-    public String get(String key) throws IOException {
-        this.loadProps();
+    public String get(String key) {
         return this.properties.getProperty(key);
     }
 
-    private void loadProps() throws IOException {
+    public ElasticConfig prepare() throws IOException {
         if (!this.isLoaded) {
             this.isLoaded = true;
             this.properties.putAll(this.readMain());
             this.properties.putAll(this.readSecret());
         }
+        return this;
     }
 
     private Properties readSecret()

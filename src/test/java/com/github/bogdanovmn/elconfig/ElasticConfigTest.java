@@ -15,7 +15,7 @@ public class ElasticConfigTest {
         final String secretFileOption = "option.name";
         System.setProperty(secretFileOption, getClass().getResource("/secret.properties").getFile());
 
-        ElasticConfig conf = new ElasticConfig(secretFileOption);
+        ElasticConfig conf = new ElasticConfig(secretFileOption).prepare();
 
         assertEquals("db.name", "production", conf.get("db.name"));
         assertEquals("db.port", "3306", conf.get("db.port"));
